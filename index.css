@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Macondo', cursive;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+header{
+    background: rgb(252,250,0);
+    background: linear-gradient(90deg, rgba(252,250,0,1) 0%, rgba(242,18,18,1) 49%, rgba(242,18,18,1) 100%);
+    color: yellow;
+    padding: 60px;
+    
+    margin: 0 auto;
+}
+h1{
+    padding: 0px;
+    margin: 0;
+    font-size: 60px
+}
+a{
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #525252;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: lemonchiffon
+}
+.dice{
+    
+    width: 125px;
+    height: 125px;
+   font-size: 30px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.btnsection{
+    background-color: brown;
+    padding: 20px;
+}
+button{
+    display: block;
+    margin: 15px auto;
+    padding: 20px 35px;
+    border-radius: 5px;
+    border: 3px solid brown;
+    background-color:lemonchiffon;
+    font-weight: bold;
+    color: brown;
+}
+button:hover,
+button:active{
+    color: lemonchiffon;
+    background-color: brown;
+    border: 3px solid lemonchiffon;
+    cursor: pointer;
+}
+.unsave{
+    background-color: antiquewhite;
+}
+.save{
+    background-color: lightgreen;
+}
